@@ -1,0 +1,2 @@
+INSERT INTO public.users (user_id, email, password, name, last_name, creation_date, is_enable, role_id) VALUES (1, 'test1@mail.ru', 'pass', 'name', 'surname', '2016-08-24 17:11:21.214000', true, 1);
+INSERT INTO public.users (user_id, email, password, name, last_name, creation_date, is_enable, role_id) VALUES (2, 'admin@mail.ru', 'pass', 'admin', 'super', '2016-08-24 17:12:02.082000', true, 2);

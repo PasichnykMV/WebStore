@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2036855004">
+    <data-source source="LOCAL" name="PostgreSQL - sombradb@localhost" uuid="4dbc1ece-84f5-4bee-9635-ccf1a0154158">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/sombradb</jdbc-url>
+    </data-source>
+  </component>
+</project>

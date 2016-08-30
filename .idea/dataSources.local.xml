@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - sombradb@localhost" uuid="4dbc1ece-84f5-4bee-9635-ccf1a0154158">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>sombradb.pg_catalog sombradb.public</schema-pattern>
+      <default-schemas>sombradb.public</default-schemas>
+    </data-source>
+  </component>
+</project>

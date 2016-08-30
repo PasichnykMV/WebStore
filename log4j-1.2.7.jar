@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script language="javascript">
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
+                function (m, key, value) {
+                    vars[key] = value;
+                });
+        return vars;
+    }
+</script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate" />
+	<title>Kyivstar</title>
+</head>
+<body>
+<img width="191" height="53" src="i/logo-ua-new.png" alt="" />
+<h2>Шановний абоненте!</h2>
+<p>
+Підчас виконання Вашого запиту за адресою 
+<script language="javascript">
+var error = getUrlVars()['error-code'];
+var url = getUrlVars()['request-url1'];
+document.write( '<a href="'+url+'">'+url+'</a> виникла помилка <b>'+error+'</b><br><br>');
+switch (error) {
+case '477':
+   document.location.href = "http://lp.kyivstar.net/lpshape.html";
+break
+case '400':
+case '404':
+case '405':
+case '410':
+case '411':
+case '413':
+case '414':
+case '425':
+case '431':
+case '434':
+case '508':
+ document.write('(невірна адреса)<br><br>Рекомендації:<br><li>Перевірте корректність зазаначеної адреси</li><li>Уточніть адресу сторінки у адміністрації сайту або через <a href="http://google.ua">пошукову систему</a>');
+ break
+case '401':
+case '402':
+case '403':
+case '406':
+case '407':
+case '408':
+case '409':
+case '417':
+case '423':
+case '426':
+case '429':
+case '449':
+case '451':
+case '500':
+case '501':
+case '502':
+case '503':
+case '504':
+case '507':
+case '509':
+case '511':
+case '599':
+ document.write('(обмеження доступу)<br><br>Рекомендації:<br><li>Перевірте можливість доступу у адміністрації сайту</li><li>Повторіть спробу пізніше</li> ');
+ break
+  default:
+ document.write('(нетипова)<br><br>Рекомендації:<br><li>Перевірте правильність адресу сайту</li><li>Уточніть можливість доступу у адміністрації сайту</li><li>Спробуйте зайти сайт з іншого пристрою</li>');   	
+}
+</script>
+
+<ln>
+<h4>Інші користні сервіси для Вашого мобільного</h4>
+<li><a href="http://lp.kyivstar.net/money.html">Мобільні гроші</a> - оплата послуг грошима з мобільного рахунку</li>
+<li><a href="http://lp.kyivstar.net/appclub.html">APP Сlub</a> - безкоштовні мобільні ігри</li>
+<li><a href="http://lp.kyivstar.net/465.html">Djingle</a> - музика замість гудків</li>
+<li><a href="http://lp.kyivstar.net/musiclub.html">Музичний клуб</a> - музика для телефону</li>
+<li><a href="http://lp.kyivstar.net/smart.html">Smart</a> - електронна бібліотека</li>
+<li><a href="http://lp.kyivstar.net/tv.html">Відео-клуб</a> - відео для телефону</li>
+<h4>Київстар бажає Вам приємного дня!</h4>
+</body>
+</html>
+

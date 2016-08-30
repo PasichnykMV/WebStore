@@ -1,0 +1,108 @@
+CREATE TABLE categories
+(
+    category_id INTEGER PRIMARY KEY NOT NULL,
+    title VARCHAR(45) NOT NULL,
+    parent_category_id INTEGER,
+    CONSTRAINT category_id FOREIGN KEY (parent_category_id) REFERENCES categories (category_id)
+    ON DELETE CASCADE
+);
+
+CREATE TABLE cities
+(
+    city_id INTEGER PRIMARY KEY NOT NULL,
+    name VARCHAR(45) NOT NULL
+
+);
+
+CREATE TABLE user_roles
+(
+    role_id INTEGER PRIMARY KEY NOT NULL,
+    name VARCHAR(45) NOT NULL
+);
+
+CREATE TABLE users
+(
+    user_id INTEGER PRIMARY KEY NOT NULL,
+    email VARCHAR(45) NOT NULL,
+    password VARCHAR(45) NOT NULL,
+    name VARCHAR(45) NOT NULL,
+    last_name VARCHAR(45) NOT NULL,
+    creation_date TIMESTAMP NOT NULL,
+    is_enable BOOLEAN DEFAULT true NOT NULL,
+    role_id INTEGER DEFAULT 1 NOT NULL,
+    CONSTRAINT role_id FOREIGN KEY (role_id) REFERENCES user_roles (role_id)
+);
+
+CREATE TABLE images
+(
+    image_id INTEGER PRIMARY KEY NOT NULL,
+    name VARCHAR(45) NOT NULL,
+    file TEXT NOT NULL,
+    is_cover BOOLEAN
+);
+
+CREATE TABLE lots
+(
+    lot_id INTEGER PRIMARY KEY NOT NULL,
+    title VARCHAR(45) NOT NULL,
+    price DOUBLE PRECISION NOT NULL,
+    city_id INTEGER NOT NULL,
+    category_id INTEGER NOT NULL,
+    creation_date TIMESTAMP NOT NULL,
+    description TEXT,
+    CONSTRAINT city_id FOREIGN KEY (city_id) REFERENCES cities (city_id)
+    ON DELETE CASCADE ,
+    CONSTRAINT category_id FOREIGN KEY (category_id) REFERENCES categories (category_id)
+    ON DELETE CASCADE
+);
+
+CREATE TABLE lots_images
+(
+    image_id INTEGER NOT NULL,
+    lot_id INTEGER NOT NULL,
+    CONSTRAINT lot_id FOREIGN KEY (lot_id) REFERENCES lots(lot_id)
+    ON DELETE CASCADE,
+    CONSTRAINT image_id FOREIGN KEY (image_id) REFERENCES images(image_id)
+    ON DELETE CASCADE
+);
+
+CREATE TABLE user_lots
+(
+    user_id INTEGER NOT NULL,
+    lot_id INTEGER NOT NULL,
+    CONSTRAINT user_id FOREIGN KEY (user_id) REFERENCES users(user_id)
+    ON DELETE CASCADE ,
+    CONSTRAINT lot_id FOREIGN KEY (lot_id) REFERENCES lots(lot_id)
+    ON DELETE CASCADE
+);
+
+CREATE TABLE users_orders
+(
+    user_id INTEGER,
+    lot_id INTEGER,
+    CONSTRAINT user_id FOREIGN KEY (user_id) REFERENCES users (user_id)
+    ON DELETE CASCADE ,
+    CONSTRAINT lot_id FOREIGN KEY (lot_id) REFERENCES lots (lot_id)
+    ON DELETE CASCADE
+);
+
+
+CREATE SEQUENCE public.cities_city_id_seq NO MINVALUE NO MAXVALUE NO CYCLE;
+ALTER TABLE public.cities ALTER COLUMN city_id SET DEFAULT nextval('public.cities_city_id_seq');
+ALTER SEQUENCE public.cities_city_id_seq OWNED BY public.cities.city_id;
+
+CREATE SEQUENCE public.categories_category_id_seq NO MINVALUE NO MAXVALUE NO CYCLE;
+ALTER TABLE public.categories ALTER COLUMN category_id SET DEFAULT nextval('public.categories_category_id_seq');
+ALTER SEQUENCE public.categories_category_id_seq OWNED BY public.categories.category_id;
+
+CREATE SEQUENCE public.images_image_id_seq NO MINVALUE NO MAXVALUE NO CYCLE;
+ALTER TABLE public.images ALTER COLUMN image_id SET DEFAULT nextval('public.images_image_id_seq');
+ALTER SEQUENCE public.images_image_id_seq OWNED BY public.images.image_id;
+
+CREATE SEQUENCE public.lots_lot_id_seq NO MINVALUE NO MAXVALUE NO CYCLE;
+ALTER TABLE public.lots ALTER COLUMN lot_id SET DEFAULT nextval('public.lots_lot_id_seq');
+ALTER SEQUENCE public.lots_lot_id_seq OWNED BY public.lots.lot_id;
+
+CREATE SEQUENCE public.users_user_id_seq NO MINVALUE NO MAXVALUE NO CYCLE;
+ALTER TABLE public.users ALTER COLUMN user_id SET DEFAULT nextval('public.users_user_id_seq');
+ALTER SEQUENCE public.users_user_id_seq OWNED BY public.users.user_id;
