@@ -7,5 +7,11 @@
       <schema-pattern>sombradb.pg_catalog sombradb.public</schema-pattern>
       <default-schemas>sombradb.public</default-schemas>
     </data-source>
+    <data-source name="PostgreSQL - d4pt5bhrt8ubu6@ec2-54-217-213-199.eu-west-1.compute.amazonaws.com" uuid="cd90203b-ebb6-4c36-8633-04f00574037a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>kphhdkyttgkbjb</user-name>
+      <schema-pattern>d4pt5bhrt8ubu6.pg_catalog d4pt5bhrt8ubu6.public</schema-pattern>
+      <default-schemas>d4pt5bhrt8ubu6.public</default-schemas>
+    </data-source>
   </component>
 </project>

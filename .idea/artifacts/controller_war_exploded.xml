@@ -51,6 +51,7 @@
           <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.5.6" />
           <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.52" />
           <element id="library" level="project" name="Maven: com.itextpdf.tool:xmlworker:5.5.7" />
+          <element id="library" level="project" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

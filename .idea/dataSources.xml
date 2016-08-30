@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2036855004">
+  <component name="DataSourceManagerImpl" format="xml" hash="731294847">
     <data-source source="LOCAL" name="PostgreSQL - sombradb@localhost" uuid="4dbc1ece-84f5-4bee-9635-ccf1a0154158">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/sombradb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - d4pt5bhrt8ubu6@ec2-54-217-213-199.eu-west-1.compute.amazonaws.com" uuid="cd90203b-ebb6-4c36-8633-04f00574037a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-217-213-199.eu-west-1.compute.amazonaws.com:5432/d4pt5bhrt8ubu6?sslmode=require&amp;ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</jdbc-url>
     </data-source>
   </component>
 </project>
