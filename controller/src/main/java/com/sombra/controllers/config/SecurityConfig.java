@@ -23,9 +23,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configure(AuthenticationManagerBuilder auth)
 			throws Exception {
 
-//		auth.inMemoryAuthentication().withUser("bill").password("abc123").roles("USER");
-//		auth.inMemoryAuthentication().withUser("admin").password("root123").roles("ADMIN");
-
 		final String findUserQuery = "select email, password, is_enable "
 				+ "from users " + "where email = ?";
 		final String findRoles =

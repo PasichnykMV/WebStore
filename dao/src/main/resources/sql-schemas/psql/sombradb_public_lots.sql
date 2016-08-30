@@ -1,0 +1,39 @@
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (5, 'The Silkworm (A Cormoran Strike Novel)', 13.19, 1, 8, '2016-08-30 00:00:00.000000', 'Private investigator Cormoran Strike returns in a new mystery from Robert Galbraith, author of the #1 international bestseller The Cuckoo''s Calling.
+
+When novelist Owen Quine goes missing, his wife calls in private detective Cormoran Strike. At first, Mrs. Quine just thinks her husband has gone off by himself for a few days--as he has done before--and she wants Strike to find him and bring him home.
+
+But as Strike investigates, it becomes clear that there is more to Quine''s disappearance than his wife realizes. The novelist has just completed a manuscript featuring poisonous pen-portraits of almost everyone he knows. If the novel were to be published, it would ruin lives--meaning that there are a lot of people who might want him silenced.
+
+When Quine is found brutally murdered under bizarre circumstances, it becomes a race against time to understand the motivation of a ruthless killer, a killer unlike any Strike has encountered before...
+
+A compulsively readable crime novel with twists at every turn, THE SILKWORM is the second in the highly acclaimed series featuring Cormoran Strike and his determined young assistant, Robin Ellacott.');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (7, 'Career of Evil (A Cormoran Strike Novel)', 12.64, 3, 8, '2016-08-30 00:00:00.000000', 'Career of Evil is the third in the highly acclaimed series featuring private detective Cormoran Strike and his assistant Robin Ellacott.
+When a mysterious package is delivered to Robin Ellacott, she is horrified to discover that it contains a woman''s severed leg. Her boss, private detective Cormoran Strike, is less surprised but no less alarmed. There are four people from his past who he thinks could be responsible--and Strike knows that any one of them is capable of sustained and unspeakable brutality.
+With the police focusing on one of the suspects, Strike and Robin delve into the dark and twisted worlds of the other three men. But as more horrendous acts occur, time is running out for the two of them...');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (9, 'The Casual Vacancy', 23, 1, 7, '2016-08-30 00:00:00.000000', 'When Barry Fairbrother dies unexpectedly in his early forties, the little town of Pagford is left in shock. Pagford is, seemingly, an English idyll, with a cobbled market square and an ancient abbey, but what lies behind the pretty façade is a town at war. Rich at war with poor, teenagers at war with their parents, wives at war with their husbands, teachers at war with their pupils…. Pagford is not what it first seems. And the empty seat left by Barry on the town’s council soon becomes the catalyst for the biggest war the town has yet seen. Who will triumph in an election fraught with passion, duplicity and unexpected revelations? Blackly comic, thought-provoking and constantly surprising, The Casual Vacancy is J.K. Rowling’s first novel for adults.');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (11, 'Harry Potter and the Chamber of Secrets', 23.99, 1, 10, '2016-08-30 00:00:00.000000', 'The Dursleys were so mean and hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he''s packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike.
+
+And strike it does. For in Harry''s second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockhart, a spirit named Moaning Myrtle who haunts the girls'' bathroom, and the unwanted attentions of Ron Weasley''s younger sister, Ginny.');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (6, 'The Cuckoo''s Calling (Cormoran Strike)', 10.99, 2, 8, '2016-08-30 00:00:00.000000', 'A brilliant debut mystery in a classic vein: Detective Cormoran Strike investigates a supermodel''s suicide.
+
+After losing his leg to a land mine in Afghanistan, Cormoran Strike is barely scraping by as a private investigator. Strike is down to one client, and creditors are calling. He has also just broken up with his longtime girlfriend and is living in his office.
+
+Then John Bristow walks through his door with an amazing story: His sister, thelegendary supermodel Lula Landry, known to her friends as the Cuckoo, famously fell to her death a few months earlier. The police ruled it a suicide, but John refuses to believe that. The case plunges Strike into the world of multimillionaire beauties, rock-star boyfriends, and desperate designers, and it introduces him to every variety of pleasure, enticement, seduction, and delusion known to man.
+
+You may think you know detectives, but you''ve never met one quite like Strike. You may think you know about the wealthy and famous, but you''ve never seen them under an investigation like this.
+
+Introducing Cormoran Strike, this is the acclaimed first crime novel by J.K. Rowling, writing under the pseudonym Robert Galbraith.
+                
+                ');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (10, 'Harry Potter and the Sorcerer''s Stone', 23.99, 1, 10, '2016-08-30 00:00:00.000000', 'For the first time, J.K. Rowling''s beloved Harry Potter books will be presented in lavishly illustrated full-color editions. Kate Greenaway-award-winning artist Jim Kay has created over 100 stunning illustrations, making this deluxe format a perfect gift as much for a child being introduced to the series, as for the dedicated fan.
+ 
+Harry Potter has never been the star of a Quidditch team, scoring points while riding a broom far above the ground. He knows no spells, has never helped to hatch a dragon, and has never worn a cloak of invisibility.
+ 
+All he knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley -- a great big swollen spoiled bully. Harry''s room is a tiny closet at the foot of the stairs, and he hasn''t had a birthday party in eleven years.
+ 
+But all that is about to change when a mysterious letter arrives by owl messenger: a letter with an invitation to an incredible place that Harry -- and anyone who reads about him -- will find unforgettable
+                ');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (12, 'Harry Potter and the Prisoner of Azkaban', 14.21, 3, 10, '2016-08-30 00:00:00.000000', 'During his third year at Hogwarts School for Witchcraft and Wizardry, Harry Potter must confront the devious and dangerous wizard responsible for his parents'' deaths.');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (13, 'FALLEN THE EASY Black/Rainbow FA14', 41.6, 1, 13, '2016-08-30 00:00:00.000000', 'BRIAN HANSEN SIGNATURE MODEL');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (14, 'THE EASY SHOE', 75, 2, 13, '2016-08-30 00:00:00.000000', 'BRIAN HANSEN SIGNATURE MODEL');
+INSERT INTO public.lots (lot_id, title, price, city_id, category_id, creation_date, description) VALUES (15, 'Revol Gray', 12.64, 2, 15, '2016-08-30 00:00:00.000000', 'T-shirt');

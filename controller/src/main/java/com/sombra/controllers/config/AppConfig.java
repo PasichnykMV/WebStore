@@ -16,9 +16,13 @@ public class AppConfig {
     public DriverManagerDataSource dataSource(){
         DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
         driverManagerDataSource.setDriverClassName("org.postgresql.Driver");
-        driverManagerDataSource.setUrl("jdbc:postgresql://localhost:5432/sombradb");
-        driverManagerDataSource.setUsername("postgres");
-        driverManagerDataSource.setPassword("root");
+        driverManagerDataSource.setUrl("jdbc:postgresql://ec2-54-217-213-199.eu-west-1.compute.amazonaws.com:5432/" +
+                "d4pt5bhrt8ubu6?sslmode=require&ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory");
+        driverManagerDataSource.setUsername("kphhdkyttgkbjb");
+        driverManagerDataSource.setPassword("PiaSkOeA3bwloCwuk9Tau1vTXc");
+//        driverManagerDataSource.setUrl("jdbc:postgresql://localhost:5432/sombradb");
+//        driverManagerDataSource.setUsername("postgres");
+//        driverManagerDataSource.setPassword("root");
         return driverManagerDataSource;
     }
 
