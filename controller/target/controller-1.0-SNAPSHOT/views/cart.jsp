@@ -52,7 +52,7 @@
                                     <c:if test="${img.is_cover()}">
                                         <a href="${lotUrl}">
                                             <img src="data:image/jpg;base64,${img.file}" alt="${lot.title}"
-                                                 height="200px">
+                                                 height="200px" >
                                         </a>
                                     </c:if>
                                 </c:forEach>
