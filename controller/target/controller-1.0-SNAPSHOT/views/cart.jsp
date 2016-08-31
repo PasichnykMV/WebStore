@@ -7,9 +7,6 @@
 
 <%@include file="_defineLocale.jsp"%>
 
-<!doctype html>
-<html>
-
 <head>
     <title><fmt:message key="Cart"/></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,10 +16,7 @@
     <link rel='stylesheet' href="<c:url value="../resources/css/dataTables.bootstrap.min.css"/>">
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel="stylesheet" href="<c:url value="../resources/css/app-style.css"/>">
-
-    <script type="text/javascript" href="//code.jquery.com/jquery-1.12.3.js"></script>
     <script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
-
 
     <%@include file="_header.jsp" %>
 
@@ -88,25 +82,9 @@
             </a>
         </div>
         </c:if>
-
-        <script>
-            $(document).ready( function() {
-
-                var sum = 0;
-
-                $('#mytable .price-td').each(function () {
-                    var price = parseFloat($(this).html());
-                    sum += price;
-                })
-                $('#total_price').html(sum);
-            });
-        </script>
     </div>
     <div class="col-lg-4"></div>
 </div>
-
-
 <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+<script type="text/javascript" src="../resources/js/cartScript.js" ></script>
 </body>
-</html>

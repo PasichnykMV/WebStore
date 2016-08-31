@@ -47,7 +47,18 @@
         </div>
     </div>
 
-    <div class="col-lg-4"></div>
+    <div class="col-lg-4">
+        <div class="well" style="background-color: goldenrod; margin-top: 20%; height: 100px;">
+            <b>Admin</b>
+            <br>
+            <b>admin@mail.ru - pass</b>
+        </div>
+        <div class="well" style="background-color: forestgreen; margin-top: 5%; height: 100px;">
+            <b>User</b>
+            <br>
+            <b>test1@mail.ru - pass</b>
+        </div>
+    </div>
 
     <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>

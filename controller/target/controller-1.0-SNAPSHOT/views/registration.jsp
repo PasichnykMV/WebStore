@@ -68,8 +68,6 @@
 </div>
 
 <div class="col-lg-4"></div>
-    <%--<script type="text/javascript" href="//code.jquery.com/jquery-1.12.3.js"></script>--%>
-
     <script type="text/javascript" src="../resources/js/password-validator.js"></script>
     <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>

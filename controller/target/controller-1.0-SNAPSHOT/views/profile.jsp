@@ -59,24 +59,6 @@
             <button class="btn btn-block sign-in-button" id="submit_button" type="submit"><fmt:message key="Edit"/>
             </button>
         </form>
-
-        <script>
-            $(function(){
-                $('#edit-profile-form').submit(function(e){
-                    e.preventDefault();
-                    var m_data=$(this).serialize() +"&edit=true";
-                    $.ajax({
-                        type: 'post',
-                        url: '/profile',
-                        data: m_data,
-                        success: function(){
-                            alert('Updated!');
-                        }
-                    });
-                });
-            });
-        </script>
-
     </div>
     <div class="col-lg-1"></div>
     <div class="col-lg-8" style="max-height: 600px; overflow-y: scroll;
@@ -123,6 +105,7 @@
     </div>
 </div>
 
+<script type="text/javascript" src="../resources/js/profileScripts.js"></script>
 <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>

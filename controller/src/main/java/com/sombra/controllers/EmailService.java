@@ -3,6 +3,7 @@ package com.sombra.controllers;
 import com.sombra.model.User;
 import org.apache.log4j.Logger;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
@@ -25,12 +26,12 @@ public class EmailService {
         return emailService;
     }
 
-    public void sendMessage(String reason, String subject, User user){
+    public void sendMessage(String reason, String subject, User user, String filePath){
         if (reason.equals("sign up")) {
             sendRegistrationMsg(subject, user);
         } else if (reason.equals("purchase")){
             try {
-                sendEmailWithAttachments(subject);
+                sendEmailWithAttachments(subject, user, filePath);
             } catch (MessagingException e) {
                 LOGGER.error("Exception in EmailService", e);
             }
@@ -84,7 +85,7 @@ public class EmailService {
         return message.toString();
     }
 
-    public static void sendEmailWithAttachments(String subject)
+    public static void sendEmailWithAttachments(String subject, User user, String filePath)
             throws AddressException, MessagingException {
 
         String from = "ourtest220@gmail.com";
@@ -109,7 +110,7 @@ public class EmailService {
         Message msg = new MimeMessage(session);
 
         msg.setFrom(new InternetAddress(from));
-        InternetAddress[] toAddresses = { new InternetAddress("mpasichnyk220@gmail.com") };
+        InternetAddress[] toAddresses = { new InternetAddress(user.getEmail()) };
         msg.setRecipients(Message.RecipientType.TO, toAddresses);
         msg.setSubject(subject);
         msg.setSentDate(new Date());
@@ -119,7 +120,7 @@ public class EmailService {
         multipart.addBodyPart(messageBodyPart);
         MimeBodyPart attachPart = new MimeBodyPart();
         try {
-            attachPart.attachFile("D:\\Check.pdf");
+            attachPart.attachFile(filePath);
         } catch (IOException ex) {
             LOGGER.error("Exception in EmailService ", ex);
         }

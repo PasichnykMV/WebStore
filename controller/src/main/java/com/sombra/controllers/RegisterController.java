@@ -31,22 +31,17 @@ public class RegisterController extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
         request.getRequestDispatcher("/views/registration.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
         User user = parseUser(request);
         userService.save(user);
-
-        EmailService.getInstance().sendMessage("sign up","Successful registration!", user);
+        EmailService.getInstance().sendMessage("sign up","Successful registration!", user, "null");
         LOGGER.info("User "+user.getName()+" successfully registered, message send to user.email");
-
         request.setAttribute("msg", "Hello "+user.getName()+
                 "!\nYou have successfully signed up at our shop. Please Sign In:");
-
         request.getRequestDispatcher("/views/login.jsp").forward(request, response);
     }
 

@@ -21,7 +21,7 @@ public class AccessDeinedController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String msg = "You have not access to this page or were banned by Administrator (check your e-mail in this case)";
+        String msg = "You have not access to this page or were banned by Administrator";
 
         LOGGER.info("Entering to AccessController, throw 403 code!");
         request.setAttribute("msg_403", msg);

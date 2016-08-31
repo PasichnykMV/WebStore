@@ -56,8 +56,8 @@ public class PaymentController extends HttpServlet {
         LOGGER.info("cart cleared!");
         String cardNumber = request.getParameter("number");
         String date = String.valueOf(new Date().getTime());
-        makePaymentCheck(lotsToOrder, userId, cardNumber, date);
-        EmailService.getInstance().sendMessage ("purchase", "Successful transaction!", userService.getById(userId));
+        EmailService.getInstance().sendMessage ("purchase", "Successful transaction!", userService.getById(userId)
+        , makePaymentCheck(lotsToOrder, userId, cardNumber, date));
         LOGGER.info("Check successfuly send to user email");
         request.getSession().setAttribute("lotsToOrder",lotsToOrder);
         request.getSession().setAttribute("date",date);
@@ -65,14 +65,15 @@ public class PaymentController extends HttpServlet {
     }
 
 
-    private void makePaymentCheck(List<Lot> lots, Integer userId, String number, String date){
+    private String makePaymentCheck(List<Lot> lots, Integer userId, String number, String date){
         LOGGER.info("Check completing started...");
         User user = userService.getById(userId);
         Double sum = 0.0;
+        String relativePath = getServletContext().getRealPath("");
+        String filePath = relativePath + "\\Check"+userId.toString()
+                +"_date-"+date+".pdf";
         try{
-            String relativePath = getServletContext().getRealPath("");
-            OutputStream file = new FileOutputStream(new File(relativePath + "\\Check"+userId.toString()
-                    +"_date-"+date+".pdf"));
+            OutputStream file = new FileOutputStream(new File(filePath));
             Document document = new Document();
             PdfWriter writer = PdfWriter.getInstance(document, file);
             StringBuilder htmlString = new StringBuilder();
@@ -102,6 +103,7 @@ public class PaymentController extends HttpServlet {
         {
             LOGGER.error("Exception in class " + this.getClass().getName(), e);
         }
+        return filePath;
     }
 
 }

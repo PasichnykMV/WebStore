@@ -59,7 +59,6 @@ public class ProfileController extends HttpServlet {
                         userService.update(user);
                         LOGGER.info("User "+user.getName()+" unbanned");
                     }
-
                 response.sendRedirect(request.getContextPath() + "/admin?page=users");
             }
 

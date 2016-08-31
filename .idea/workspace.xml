@@ -1,7 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1e1e5d5-1dfc-4f36-9dcf-d81c58f29498" name="Default" comment="" />
+    <list default="true" id="c1e1e5d5-1dfc-4f36-9dcf-d81c58f29498" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/Check3_date-1472591142614.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/Check3_date-1472591365010.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/Check5_date-1472590006634.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/js/cartScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/js/lotsScripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/js/paymentScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/js/profileScripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/resources/js/cartScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/resources/js/lotsScripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/resources/js/paymentScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/resources/js/profileScripts.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_categories.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_cities.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_lots.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_lots_images.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_user_lots.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_user_roles.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_users.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_users_orders.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_categories.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_cities.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_lots.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_lots_images.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_user_lots.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_user_roles.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_users.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_users_orders.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jdbc/src/main/resources/dbConfig.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/sombradb_public_images.sql" afterPath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/insert-script_v.1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dao/target/classes/sql-schemas/psql/sombradb_public_images.sql" afterPath="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/insert-script_v.1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dbConfig.properties" afterPath="$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jdbc/src/main/java/com/sombra/jdbc/dbConfig.properties" afterPath="$PROJECT_DIR$/controller/target/classes/dbConfig.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/AccessDeinedController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/AccessDeinedController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/AdminController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/CheckController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/CheckController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/EmailService$1.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/EmailService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/EmailService$2.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/EmailService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/EmailService.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/EmailService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/ImageController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/ImageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/PaymentController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/PaymentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/ProfileController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/ProfileController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/RegisterController.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/config/AppConfig.class" afterPath="$PROJECT_DIR$/controller/target/classes/com/sombra/controllers/config/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/AccessDeinedController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/AccessDeinedController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/AdminController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/CheckController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/CheckController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/EmailService$1.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/EmailService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/EmailService$2.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/EmailService$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/EmailService.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/EmailService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/ImageController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/ImageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/PaymentController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/PaymentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/ProfileController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/ProfileController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/RegisterController.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/config/AppConfig.class" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/com/sombra/controllers/config/AppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AccessDeinedController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AccessDeinedController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AdminController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CheckController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CheckController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/EmailService.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/EmailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ImageController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ImageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/PaymentController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/PaymentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ProfileController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ProfileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/RegisterController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/RegisterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/resources/css/app-style.css" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/css/app-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/_container.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/_container.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_lots.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_lots.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/admin/editLot.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/admin/editLot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/cart.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/login.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/payment.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/payment.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/profile.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/views/registration.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/views/registration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/dbConfig.properties" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/WEB-INF/classes/dbConfig.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/index.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/resources/css/app-style.css" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/resources/css/app-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/_container.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/_container.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/admin/_lots.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/admin/_lots.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/admin/editLot.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/admin/editLot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/cart.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/cart.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/login.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/payment.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/payment.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/profile.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/registration.jsp" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT/views/registration.jsp" />
+    </list>
     <ignored path="sombratest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,14 +125,8 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
-    </PATH>
-    <PATH>
       <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - d4pt5bhrt8ubu6@ec2-54-217-213-199.eu-west-1.compute.amazonaws.com" />
+        <option name="myItemId" value="PostgreSQL - sombradb@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
@@ -60,7 +144,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - d4pt5bhrt8ubu6@ec2-54-217-213-199.eu-west-1.compute.amazonaws.com" />
+        <option name="myItemId" value="PostgreSQL - sombradb@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
@@ -71,10 +155,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
     <PATH>
       <PATH_ELEMENT>
@@ -82,11 +162,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - d4pt5bhrt8ubu6@ec2-54-217-213-199.eu-west-1.compute.amazonaws.com" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="public" />
+        <option name="myItemId" value="PostgreSQL - sombradb@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -94,10 +170,6 @@
       <PATH_ELEMENT>
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - d4pt5bhrt8ubu6@ec2-54-217-213-199.eu-west-1.compute.amazonaws.com" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
   </component>
@@ -107,88 +179,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-79.76923">
-              <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+            <state vertical-scroll-proportion="-12.692307">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/pom.xml">
+      <file leaf-file-name="lot.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/lot.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.038462">
+              <caret line="130" column="39" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConfig.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbConfig.properties">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="38" />
+            <state vertical-scroll-proportion="-8.884615">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConfig.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdbc/src/main/resources/dbConfig.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbConfig.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80501395">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessDeinedController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AccessDeinedController.java">
+      <file leaf-file-name="dbConfig.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.04644809">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="1" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d4pt5bhrt8ubu6.public.users" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/ec385a/cd90203b-ebb6-4c36-8633-04f00574037a/d4pt5bhrt8ubu6.public.users">
+      <file leaf-file-name="sombradb.public.users" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -202,11 +244,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcLotService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/src/main/java/com/sombra/services/JdbcLotService.java">
+      <file leaf-file-name="create-script" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/create-script">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -221,10 +263,13 @@
         <option value="CSS File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -234,57 +279,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4dbc1ece-84f5-4bee-9635-ccf1a0154158/console.sql" />
-        <option value="$PROJECT_DIR$/jdbc/src/main/java/com/sombra/jdbc/JdbcImageDao.java" />
-        <option value="$PROJECT_DIR$/jdbc/src/main/java/com/sombra/jdbc/JdbcCategoriesDao.java" />
-        <option value="$PROJECT_DIR$/services/src/main/java/com/sombra/services/CategoryService.java" />
-        <option value="$PROJECT_DIR$/services/src/main/java/com/sombra/services/JdbcCategoryService.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com.sombra/dao/CategoriesDao.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/_defineLocale.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/registration.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/403.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/check.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/payment.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/login.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/adminPage.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_cities.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_lots.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/_header.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_users.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/_tableScripts.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CategoriesController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CartController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AdminController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CheckController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CitiesController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ImageController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/LotController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/OrderController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ProfileController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/RegisterController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/ResourceBundle_en.properties" />
         <option value="$PROJECT_DIR$/controller/src/main/resources/ResourceBundle_uk.properties" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/WelcomeServlet.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_categories.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/lot.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/_container.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/EditLotController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/editLot.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/views/_table.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/PaymentController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/profile.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/cart.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AccessDeinedController.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/insert-script_v.1" />
         <option value="$PROJECT_DIR$/model/pom.xml" />
-        <option value="$PROJECT_DIR$/dbConfig.properties" />
         <option value="$PROJECT_DIR$/jdbc/src/main/resources/dbConfig.properties" />
-        <option value="$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AccessDeinedController.java" />
+        <option value="$PROJECT_DIR$/dbConfig.properties" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AdminController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CheckController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ImageController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CartController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ProfileController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/PaymentController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/RegisterController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/EmailService.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/css/app-style.css" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/_lots.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/js/lotsScripts.js" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/admin/editLot.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/_container.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/js/cartScript.js" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/cart.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/js/lotScript.js" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/js/paymentScript.js" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/payment.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/lot.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/profile.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/js/profileScripts.js" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/registration.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/insert-script_v.1" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/views/login.jsp" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties" />
       </list>
     </option>
   </component>
@@ -415,36 +460,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extensions" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.intellij.database" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DB Consoles" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,50 +488,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sombratest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sombratest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sombratest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sombratest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -580,32 +551,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sombratest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sombratest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jdbc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -856,6 +801,44 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sombratest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sombratest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -979,6 +962,36 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB Consoles" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -992,21 +1005,37 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="829" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="156" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\resources\js" />
-      <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\resources\css" />
-      <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\views" />
-      <recent name="C:\Users\Макс\sombratest\controller\src\main\java\com\sombra\controllers\config" />
-      <recent name="C:\Users\Макс\sombratest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Макс\sombratest\dao\src\main\resources\sql-schemas\psql" />
       <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp" />
       <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\views" />
       <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\resources\css" />
       <recent name="C:\Users\Макс\sombratest\controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Макс\sombratest\controller\src\main\resources" />
+      <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\resources\js" />
+      <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Макс\sombratest\controller\src\main\webapp\views" />
+      <recent name="C:\Users\Макс\sombratest\controller\src\main\java\com\sombra\controllers\config" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
@@ -1821,7 +1850,9 @@
       <workItem from="1472294367879" duration="24005000" />
       <workItem from="1472373149924" duration="11221000" />
       <workItem from="1472547865191" duration="12868000" />
-      <workItem from="1472565095825" duration="5168000" />
+      <workItem from="1472565095825" duration="6352000" />
+      <workItem from="1472585569890" duration="7218000" />
+      <workItem from="1472627041573" duration="765000" />
     </task>
     <servers />
   </component>
@@ -1858,11 +1889,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407626000" />
+    <option name="totallyTimeSpent" value="416793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1871,16 +1902,16 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24744028" sideWeight="0.5136157" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39249146" sideWeight="0.49319214" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19440243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19440243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34129694" sideWeight="0.48638427" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34129694" sideWeight="0.48638427" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20801815" sideWeight="0.7026239" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.295764" sideWeight="0.7026239" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375189" sideWeight="0.84076434" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14220877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14220877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1910,7 +1941,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14220877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14220877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1922,7 +1953,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39590445" sideWeight="0.48638427" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34129694" sideWeight="0.48638427" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26450512" sideWeight="0.49546143" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34300342" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
@@ -1956,364 +1987,270 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/adminPage.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/SecurityWebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33887044">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CheckController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.18941504">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CitiesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.5626741">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/ResourceBundle_uk.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25612053">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/ResourceBundle_en.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0075329565">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33452594">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/WelcomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2026577">
-          <caret line="0" column="82" selection-start-line="0" selection-start-column="82" selection-end-line="0" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57186544">
-          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/LotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="method#parseLot#0;class#LotController#0" expanded="false" />
-            <element signature="method#completeCategoryTree#0;class#LotController#0" expanded="false" />
-            <element signature="method#getLotsInCartCount#0;class#LotController#0" expanded="false" />
-            <element signature="method#parseFiles#0;class#LotController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_sidebar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.user_lots">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.users_orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.cities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/com/sombra/model/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/main/java/com/sombra/jdbc/JdbcCategoriesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.categories">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CategoriesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/_categories.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0384617">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/lot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.lots">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.lots_images">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.images">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/_lots.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/EditLotController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="3.2200558">
           <caret line="86" column="70" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/editLot.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/WelcomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5738162">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20930232">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/LotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6153846">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4293381">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08765653">
+          <caret line="26" column="91" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33452594">
+          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/CheckController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="205" column="45" selection-start-line="205" selection-start-column="45" selection-end-line="205" selection-end-column="45" />
-          <folding />
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/PaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42618385">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95264626">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/_categories.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-43.153847">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_table.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/css/app-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/js/lotsScripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
+          <caret line="156" column="3" selection-start-line="156" selection-start-column="3" selection-end-line="156" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/profile.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/_lots.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_container.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/_cities.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="16" selection-end-column="40" />
+        <state vertical-scroll-proportion="6.8076925">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/cart.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/_users.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state vertical-scroll-proportion="17.26923">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/ec385a/cd90203b-ebb6-4c36-8633-04f00574037a/d4pt5bhrt8ubu6.public.user_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/admin/editLot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd90203b-ebb6-4c36-8633-04f00574037a/console.sql">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_container.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_defineLocale.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_table.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.576923">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/_tableScripts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.76923">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/adminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="29.692308">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/js/cartScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="36.884617">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="34.26923">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/js/paymentScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/payment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.923077">
+          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-67.07692">
+          <caret line="107" column="69" selection-start-line="107" selection-start-column="69" selection-end-line="107" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/js/profileScripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-45.115383">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/create-script">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2323,61 +2260,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/resources/sql-schemas/psql/insert-script_v.1">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15947467">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/src/main/java/com/sombra/services/LotService.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="-12.692307">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/src/main/java/com/sombra/services/JdbcLotService.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/lot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state vertical-scroll-proportion="-11.038462">
+          <caret line="130" column="39" selection-start-line="130" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-79.76923">
-          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc/src/main/resources/dbConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ec385a/cd90203b-ebb6-4c36-8633-04f00574037a/d4pt5bhrt8ubu6.public.users">
+    <entry file="dbDummy://dbtable:/ec385a/4dbc1ece-84f5-4bee-9635-ccf1a0154158/sombradb.public.users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -2390,34 +2295,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/AccessDeinedController.java">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state vertical-scroll-proportion="-8.884615">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/sombra/controllers/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80501395">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/dbConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04644809">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="1" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>

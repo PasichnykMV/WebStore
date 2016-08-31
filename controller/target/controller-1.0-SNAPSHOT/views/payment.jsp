@@ -52,17 +52,11 @@
                 <input type="submit">
             </form>
         </div>
-
-        <script>
-            new Card({
-                form: document.querySelector('form'),
-                container: '.card-wrapper'
-            });
-        </script>
     </div>
     <div class="col-lg-4"></div>
 </div>
 
+<script type="text/javascript" src="../resources/js/paymentScript.js"></script>
 <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>

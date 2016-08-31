@@ -26,11 +26,6 @@ public class ImageController extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final Logger LOGGER = Logger.getLogger(ImageController.class.getName());
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-
-    }
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         LOGGER.info("Start doPost in ImageController");
@@ -46,7 +41,6 @@ public class ImageController extends HttpServlet {
             if (fileName != null) {
                 filePart.write(path);
                 }
-
                 files.add(path);
             }
 

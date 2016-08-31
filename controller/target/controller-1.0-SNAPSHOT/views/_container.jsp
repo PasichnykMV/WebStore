@@ -1,7 +1,6 @@
 <body>
 
     <div class="">
-        <%--<div class="row">--%>
         <c:forEach var="lot" items="${lots}" varStatus="Status">
                 <c:url var="lotUrl" value="/lot?id=${lot.id}" />
                 <div class="col-lg-3">
@@ -34,7 +33,6 @@
                 </div>
 
         </c:forEach>
-        <%--</div>--%>
     </div>
 
 </body>

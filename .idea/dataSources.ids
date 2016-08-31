@@ -10,8 +10,8 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
-        <introspection-state-number>10037</introspection-state-number>
-        <introspection-timestamp>2016-08-24.21:40:16.627</introspection-timestamp>
+        <introspection-state-number>10352</introspection-state-number>
+        <introspection-timestamp>2016-08-31.00:46:43.024</introspection-timestamp>
       </schema>
       <schema id="3" parent="1" name="pg_catalog">
         <object-id>11</object-id>
@@ -20,60 +20,60 @@
         <introspection-timestamp>2016-08-16.20:35:15.084</introspection-timestamp>
       </schema>
       <sequence id="4" parent="2" name="categories_category_id_seq">
-        <object-id>164265</object-id>
-        <state-number>10027</state-number>
+        <object-id>180376</object-id>
+        <state-number>10342</state-number>
       </sequence>
       <sequence id="5" parent="2" name="cities_city_id_seq">
-        <object-id>164262</object-id>
-        <state-number>10024</state-number>
+        <object-id>180373</object-id>
+        <state-number>10339</state-number>
       </sequence>
       <sequence id="6" parent="2" name="images_image_id_seq">
-        <object-id>164268</object-id>
-        <state-number>10030</state-number>
+        <object-id>180379</object-id>
+        <state-number>10345</state-number>
       </sequence>
       <sequence id="7" parent="2" name="lots_lot_id_seq">
-        <object-id>164271</object-id>
-        <state-number>10033</state-number>
+        <object-id>180382</object-id>
+        <state-number>10348</state-number>
       </sequence>
       <sequence id="8" parent="2" name="users_user_id_seq">
-        <object-id>164274</object-id>
-        <state-number>10036</state-number>
+        <object-id>180385</object-id>
+        <state-number>10351</state-number>
       </sequence>
       <table id="9" parent="2" name="categories">
-        <object-id>164165</object-id>
-        <state-number>10020</state-number>
+        <object-id>180276</object-id>
+        <state-number>10335</state-number>
       </table>
       <table id="10" parent="2" name="cities">
-        <object-id>164175</object-id>
-        <state-number>10020</state-number>
+        <object-id>180286</object-id>
+        <state-number>10335</state-number>
       </table>
       <table id="11" parent="2" name="images">
-        <object-id>164197</object-id>
-        <state-number>10021</state-number>
+        <object-id>180308</object-id>
+        <state-number>10336</state-number>
       </table>
       <table id="12" parent="2" name="lots">
-        <object-id>164205</object-id>
-        <state-number>10023</state-number>
+        <object-id>180316</object-id>
+        <state-number>10338</state-number>
       </table>
       <table id="13" parent="2" name="lots_images">
-        <object-id>164223</object-id>
-        <state-number>10021</state-number>
+        <object-id>180334</object-id>
+        <state-number>10336</state-number>
       </table>
       <table id="14" parent="2" name="user_lots">
-        <object-id>164236</object-id>
-        <state-number>10022</state-number>
+        <object-id>180347</object-id>
+        <state-number>10337</state-number>
       </table>
       <table id="15" parent="2" name="user_roles">
-        <object-id>164180</object-id>
-        <state-number>10018</state-number>
+        <object-id>180291</object-id>
+        <state-number>10333</state-number>
       </table>
       <table id="16" parent="2" name="users">
-        <object-id>164185</object-id>
-        <state-number>10023</state-number>
+        <object-id>180296</object-id>
+        <state-number>10338</state-number>
       </table>
       <table id="17" parent="2" name="users_orders">
-        <object-id>164249</object-id>
-        <state-number>10023</state-number>
+        <object-id>180360</object-id>
+        <state-number>10338</state-number>
       </table>
       <table id="18" parent="3" name="pg_aggregate">
         <object-id>2600</object-id>
@@ -18958,22 +18958,22 @@
         <bind-function>bpchariclike(char,text)</bind-function>
       </operator>
       <column id="3366" parent="9" name="category_id">
-        <state-number>10028</state-number>
+        <state-number>10343</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;categories_category_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="3367" parent="9" name="title">
-        <state-number>10015</state-number>
+        <state-number>10330</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3368" parent="9" name="parent_category_id">
-        <state-number>10015</state-number>
+        <state-number>10330</state-number>
         <data-type>integer</data-type>
       </column>
       <index id="3369" parent="9" name="categories_pkey">
-        <object-id>164168</object-id>
+        <object-id>180279</object-id>
         <columns>category_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
@@ -18990,18 +18990,18 @@
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
       <column id="3372" parent="10" name="city_id">
-        <state-number>10025</state-number>
+        <state-number>10340</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;cities_city_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="3373" parent="10" name="name">
-        <state-number>10016</state-number>
+        <state-number>10331</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <index id="3374" parent="10" name="cities_pkey">
-        <object-id>164178</object-id>
+        <object-id>180289</object-id>
         <columns>city_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
@@ -19012,27 +19012,27 @@
         <primary>1</primary>
       </key>
       <column id="3376" parent="11" name="image_id">
-        <state-number>10031</state-number>
+        <state-number>10346</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;images_image_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="3377" parent="11" name="name">
-        <state-number>10019</state-number>
+        <state-number>10334</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3378" parent="11" name="file">
-        <state-number>10019</state-number>
+        <state-number>10334</state-number>
         <mandatory>1</mandatory>
         <data-type>text</data-type>
       </column>
       <column id="3379" parent="11" name="is_cover">
-        <state-number>10019</state-number>
+        <state-number>10334</state-number>
         <data-type>boolean</data-type>
       </column>
       <index id="3380" parent="11" name="images_pkey">
-        <object-id>164203</object-id>
+        <object-id>180314</object-id>
         <columns>image_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
@@ -19043,42 +19043,42 @@
         <primary>1</primary>
       </key>
       <column id="3382" parent="12" name="lot_id">
-        <state-number>10034</state-number>
+        <state-number>10349</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;lots_lot_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="3383" parent="12" name="title">
-        <state-number>10020</state-number>
+        <state-number>10335</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3384" parent="12" name="price">
-        <state-number>10020</state-number>
+        <state-number>10335</state-number>
         <mandatory>1</mandatory>
         <data-type>double precision</data-type>
       </column>
       <column id="3385" parent="12" name="city_id">
-        <state-number>10020</state-number>
+        <state-number>10335</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
       <column id="3386" parent="12" name="category_id">
-        <state-number>10020</state-number>
+        <state-number>10335</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
       <column id="3387" parent="12" name="creation_date">
-        <state-number>10020</state-number>
+        <state-number>10335</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="3388" parent="12" name="description">
-        <state-number>10020</state-number>
+        <state-number>10335</state-number>
         <data-type>text</data-type>
       </column>
       <index id="3389" parent="12" name="lots_pkey">
-        <object-id>164211</object-id>
+        <object-id>180322</object-id>
         <columns>lot_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
@@ -19101,12 +19101,12 @@
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
       <column id="3393" parent="13" name="image_id">
-        <state-number>10021</state-number>
+        <state-number>10336</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
       <column id="3394" parent="13" name="lot_id">
-        <state-number>10021</state-number>
+        <state-number>10336</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
@@ -19123,12 +19123,12 @@
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
       <column id="3397" parent="14" name="user_id">
-        <state-number>10022</state-number>
+        <state-number>10337</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
       <column id="3398" parent="14" name="lot_id">
-        <state-number>10022</state-number>
+        <state-number>10337</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
@@ -19145,17 +19145,17 @@
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
       <column id="3401" parent="15" name="role_id">
-        <state-number>10017</state-number>
+        <state-number>10332</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
       </column>
       <column id="3402" parent="15" name="name">
-        <state-number>10017</state-number>
+        <state-number>10332</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <index id="3403" parent="15" name="user_roles_pkey">
-        <object-id>164183</object-id>
+        <object-id>180294</object-id>
         <columns>role_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
@@ -19166,50 +19166,50 @@
         <primary>1</primary>
       </key>
       <column id="3405" parent="16" name="user_id">
-        <state-number>10037</state-number>
+        <state-number>10352</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>nextval(&apos;users_user_id_seq&apos;::regclass)</default-expression>
       </column>
       <column id="3406" parent="16" name="email">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3407" parent="16" name="password">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3408" parent="16" name="name">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3409" parent="16" name="last_name">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>varchar(45)</data-type>
       </column>
       <column id="3410" parent="16" name="creation_date">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>timestamp</data-type>
       </column>
       <column id="3411" parent="16" name="is_enable">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>boolean</data-type>
         <default-expression>true</default-expression>
       </column>
       <column id="3412" parent="16" name="role_id">
-        <state-number>10018</state-number>
+        <state-number>10333</state-number>
         <mandatory>1</mandatory>
         <data-type>integer</data-type>
         <default-expression>1</default-expression>
       </column>
       <index id="3413" parent="16" name="users_pkey">
-        <object-id>164190</object-id>
+        <object-id>180301</object-id>
         <columns>user_id</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
@@ -19226,11 +19226,11 @@
         <cascade-delete-rule>restrict</cascade-delete-rule>
       </foreign-key>
       <column id="3416" parent="17" name="user_id">
-        <state-number>10023</state-number>
+        <state-number>10338</state-number>
         <data-type>integer</data-type>
       </column>
       <column id="3417" parent="17" name="lot_id">
-        <state-number>10023</state-number>
+        <state-number>10338</state-number>
         <data-type>integer</data-type>
       </column>
       <foreign-key id="3418" parent="17" name="user_id">

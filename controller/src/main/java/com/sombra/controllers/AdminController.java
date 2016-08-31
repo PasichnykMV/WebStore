@@ -24,12 +24,10 @@ public class AdminController extends HttpServlet {
 
     private JdbcCategoryService categoryService;
     private CityService cityService;
-    private JdbcLotService lotService;
     private JdbcUserService userService;
 
     public void init() throws ServletException {
         this.categoryService = new JdbcCategoryService();
-        this.lotService = new JdbcLotService();
         this.userService = new JdbcUserService();
         this.cityService = new JdbcCityService();
     }
@@ -39,7 +37,7 @@ public class AdminController extends HttpServlet {
         request.setAttribute("users", userService.getAll());
         request.setAttribute("categories", categoryService.getAllWithSubcategories());
         request.setAttribute("cities", cityService.getAll());
-        LOGGER.info("Entering to AdminController with uri" + request.getQueryString());
+        LOGGER.info("Entering to AdminController with params" + request.getQueryString());
         request.getRequestDispatcher("/views/adminPage.jsp").forward(request, response);
     }
 
